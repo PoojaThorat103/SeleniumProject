@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestPractice1">
+  <parameter name = "Browser" value = "Chrome"/>
+  <parameter name = "Env" value = "QA"/>
+    <classes>
+    <!-- <class name="com.demo.action.TestPractice1"/>
+     <class name="com.demo.action.DropDownSelection"/>
+     <class name="com.demo.action.TableTest"/> 
+      <class name = "com.demo.action.FrameHandling"/>  -->
+      <class name = "com.demo.action.ActionClassTest"/> 
+   <!--    <class name="com.demo.action.MultipleWindowHandlingTest"/>  -->
+       <!--    <class name ="com.demo.action.TakeScreenshotTest"/> -->
+     <!--  <class name = "com.demo.action.JvaScriptExeTest"/> -->
+      <!--  <class name = "com.demo.action.AlertClass"/> -->
+      <!-- <class name = "com.demo.action.AnnotationTest"/>-->
+     <!--  <class name = "com.demo.action.AssertionTest"/> -->
+      
+      
+    </classes>
+  </test> <!-- TestPractice1 -->
+</suite> <!-- Suite -->
