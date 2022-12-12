@@ -56,7 +56,7 @@ public class TestPractice1 extends BaseClass {
 	  
 	  WebElement SendButton =  driver.findElement(By.xpath("//*[@id=\"contact_form\"]/fieldset/div[13]/div/button"));
 	  SendButton.click();
-	 	System.out.print("This is for git Test/ practice");
+	 	System.out.print("This is for git Test/ practice======= ");
 	   
 	 
   }
